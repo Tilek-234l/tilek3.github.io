@@ -1,0 +1,372 @@
+body{
+   /* background-image: url(MJsport.png); */
+   /* background-size: cover; */
+   background-color: #191919;
+}
+
+/* Спизженные шрифты */
+@font-face {
+   src: url("font/Ubuntu-Medium.ttf");
+   font-family: Ubuntu;
+ }
+ @font-face {
+   src: url("../font/Poppins-Medium.ttf");
+   font-family: Poppins;
+ }
+ @font-face {
+   src: url("/Fonts/Revalia-Regular.ttf");
+   font-family: Revalia;
+ }
+
+.instMJ{
+   background-color: #2c2c2c;
+   border: solid 4px #000;
+   border-radius: 10px;
+   font-size: 20px;
+   color: white;
+   padding: 20px;
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 1550px;
+   text-decoration: none;
+   font-family: Ubuntu;
+   box-shadow: 10px 10px 20px #000;
+}
+
+.instMJ:hover{
+   background-color: rgb(18, 13, 13);
+   transition: background-color 0.3s linear;
+   font-size: 22px;
+   transition: font-size 0.3S;
+}
+
+.wasap{
+   background-color: #2c2c2c;
+   border: solid 4px #000;
+   border-radius: 10px;
+   font-size: 20px;
+   color: white;
+   padding: 20px;
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 1700px;
+   text-decoration: none;
+   font-family: Ubuntu;
+   box-shadow: 10px 10px 20px #000;
+}
+
+.wasap:hover{
+   background-color: rgb(18, 13, 13);
+   font-size: 22px;
+   transition: background-color 0.3s linear;
+   transition: font-size 0.3S;
+}
+
+/* меню с верху, та хуеетнь */
+.menu{
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 350px;
+   width: 1000px;
+   height: 90px;
+   border-top: 90px solid rgb(0, 0, 0);
+   border-right: 100px solid transparent;
+   border-left: 100px solid transparent;
+   text-align: right;
+}
+
+/* Кнопка с которой 2 часа ебался*/
+.but1{
+   background-color: #000;
+   border: solid 1px #000;
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 700px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but1:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.joma1{
+   color: #fff;
+   border-bottom: solid 3px;
+}
+
+.joma{
+   text-decoration: none;
+}
+
+.but2{
+   background-color: #000;
+   border: solid 1px #000;
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 850px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but2:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.kelme1{
+   text-decoration: none;
+}
+
+.kelme{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.but3{
+   background-color: #000;
+   border: solid 1px #000;
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 1000px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but3:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.bigser1{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.bigser{
+   text-decoration: none;
+}
+
+.but4{
+   background-color: #000;
+   border: solid 1px #000;
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 1150px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but4:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.nike1{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.nike{
+   text-decoration: none;
+}
+
+.but5{
+   background-color: #000;
+   border: solid 1px #000;
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 1300px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but5:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.adidas1{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.adidas{
+   text-decoration: none;
+}
+
+.ico{
+   position: absolute;
+   margin-top: -53px;
+   margin-left: 450px;
+}
+
+.kelme-kurtka1{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 370px;
+ }
+
+ .kartinka1{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 690px;
+ }
+
+ .kartinka2{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 1000px;
+ }
+
+ .kartinka3{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 1320px;
+ }
+ 
+ .kelme-kurtka1-1{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 700px;
+   margin-left: 370px;
+ }
+
+ .kartinka1-1{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 700px;
+   margin-left: 690px;
+ }
+
+ .kartinka2-1{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 700px;
+   margin-left: 1000px;
+ }
+
+ .kartinka3-1{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 700px;
+   margin-left: 1320px;
+ }
+
+ .kelme-kurtka1-2{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 1200px;
+   margin-left: 370px;
+ }
+
+ .kartinka1-2{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 1200px;
+   margin-left: 690px;
+ }
+
+ .kartinka2-2{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 1200px;
+   margin-left: 1000px;
+ }
+
+ .kartinka3-2{
+   width: 220px;
+   height: 350px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 1200px;
+   margin-left: 1320px;
+ }
+
+ #parallelogram {
+   position: absolute;
+   margin-left: -8px;
+   margin-top: 2000px;
+   width: 100%;
+   height: 400px;
+   background: #000000;
+}
+
+.scroll{
+   height: 2000px;
+}
